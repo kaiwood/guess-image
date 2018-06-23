@@ -1,6 +1,6 @@
 {
   "name": "guess-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Take a guess on the primary image of a website / blog post.",
   "main": "index.js",
   "scripts": {
