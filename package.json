@@ -1,15 +1,24 @@
 {
   "name": "guess-image",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Take a guess on the primary image of a website / blog post.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "hack-node-fetch": "node-fetch",
+      "node-fetch": "fetch-vcr"
+    }
+  },
   "author": "Kai Wood <kwood@kwd.io> (https://kwd.io)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "jest": "^23.1.0"
+    "fetch-vcr": "^2.2.0",
+    "jest": "^23.1.0",
+    "metascraper": "^3.11.6",
+    "node-fetch": "^2.1.2"
   }
 }
